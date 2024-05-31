@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js/app.js" defer></script>
+  <script src="js/clock.js" defer></script>
+  <script src="js/login.js" defer></script>
+  <script src="js/toDo.js" defer></script>
+  <script src="js/weather.js" defer></script>
+</head>
+<body>
+  <header class="header-container">
+    <nav class="header-nav">
+      <a href="/">To Do List</a>
+      <h2>
+        <span class="location"></span>
+        <span class="weather"></span>
+      </h2>
+    </nav>
+  </header>
+  <main class="main-container">
+    <h1 class="clock">00:00</h1>
+    <div class="name-contents">
+      <form class="contents-form">
+        <input type="text" placeholder="이름을 입력해주세요.">
+      </form>
+    </div>
+    <div class="toDo-contents">
+      <form class="toDo-form">
+        <input type="text" placeholder="할 일을 적어주세요.">
+      </form>
+      <ul class="toDo-list"></ul>
+    </div>
+  </main>
+</body>
+</html>
